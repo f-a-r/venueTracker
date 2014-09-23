@@ -1,0 +1,22 @@
+venueTracker
+============
+=======================
+Quick Info
+=======================
+
+My app gets the current location, then using a query word (“French”) and query type (“Cafe”) and the desired distance in meters (“1200”). After pressing search it will be redirected to the map showing the results, from the tab bar, we can choose to see list of items returned sorted by distance (already in the SearchViewController) to current location. If we click on any of the items in the list view, then we will be redirected to detail view page to see some extra information about the picked place. we can add the place to favorites list by clicking the favorite button and it will be saved to favorites. You can un-favorite an item either by going to the favorite tab bar and click on un-favorite or if you are still in the same search, you can un-favorite this item by clicking again on un-favorite button.
+
+=======================
+File Highlights (most of the code is here)
+=======================
+
+1. COMSBaseViewController.m
+2. SEARCHVIEWCONTROLLER.m
+3. pin.m
+4.LocationTableViewController.m
+5.TabBarViewController.m
+6.LocationDetailViewController.m
+7.FavoritesViewController.m
+8. Main.stroyboad
+
+
